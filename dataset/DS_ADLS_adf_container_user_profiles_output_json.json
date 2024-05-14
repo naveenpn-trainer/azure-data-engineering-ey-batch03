@@ -1,10 +1,6 @@
 {
 	"name": "DS_ADLS_adf_container_user_profiles_output_json",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_ADLS_azurestorageaccountmain",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {
