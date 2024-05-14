@@ -1,0 +1,19 @@
+{
+	"name": "AzureDataLakeStorage2",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://azurestorageaccountmain.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "MyStorageKey",
+				"secretVersion": "2a2084e38b604430bb4f720f1f270c45"
+			}
+		}
+	}
+}
